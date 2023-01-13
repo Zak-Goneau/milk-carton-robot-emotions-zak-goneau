@@ -6,7 +6,8 @@ input.onButtonPressed(Button.A, function () {
     }
 })
 input.onButtonPressed(Button.AB, function () {
-    basic.showString("Hello, I'm Neilson!")
+    basic.showString("Hi, I'm Neilson!")
+    basic.showIcon(IconNames.Happy)
 })
 input.onButtonPressed(Button.B, function () {
     basic.showIcon(IconNames.Asleep)
